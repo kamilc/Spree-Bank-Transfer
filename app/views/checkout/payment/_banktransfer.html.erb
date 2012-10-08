@@ -2,5 +2,5 @@
   Numer konta do przelewu za to zamówienie: <b><%= @order.bank_number %></b>
 </p>
 <p>
-    Adres: <b><%= Spree::Config[:address] %></b>
+    Adres: <b><%= Spree::Config[:address].html_safe %></b>
 </p>
